@@ -41,7 +41,7 @@ console.log(pet);
 //Create array of 5 objs with name and age props
 let userArr = [
     {
-        name: "John",
+        name: "George",
         age: 5
     },
     {
@@ -53,7 +53,7 @@ let userArr = [
         age: 21
     },
     {
-        name: "George",
+        name: "John",
         age: 16
     },
     {
@@ -64,7 +64,9 @@ let userArr = [
 
 /*Use a loop to call the checkAge function for each object in the array, 
 passing the object's name and age as arguments. */
-for 
+for (let i=0; i < userArr.length; i++) {
+    checkAge(userArr[i].name, userArr[i].age);
+}
 
 
 
