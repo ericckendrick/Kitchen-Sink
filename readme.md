@@ -35,9 +35,6 @@ The objective of this lab assignment is to practice using the fundamentals of Ja
 
 14. Create a function called getLength that takes any word as an argument. The function should return the number of characters in the string.
 
-Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable.
+15. Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable. If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
 
-If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
-
-Submit to Github
 Commit your changes and push to GitHub.

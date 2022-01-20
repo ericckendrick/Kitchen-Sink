@@ -29,7 +29,6 @@ let favVeggies = ["okra", "asparagus", "mushroom", "onion"];
 for (let i = 0; i < favVeggies.length; i++) {
     console.log(favVeggies[i])
 };
-console.log(favVeggies);
 
 //Create a 'pet' object with props 'name' and 'breed', then console.log
 let pet = {
@@ -67,6 +66,21 @@ passing the object's name and age as arguments. */
 for (let i=0; i < userArr.length; i++) {
     checkAge(userArr[i].name, userArr[i].age);
 }
+
+/* Create getLength function that takes any word as an argument and returns number
+of characters in the string */
+getLength = string => {
+    return string.length;
+}
+// Call getLength and pass 'Hello World', then store result as a variable
+let helloLength = getLength("Hello World");
+
+// Check result for odd or even, then console.log appropriate response
+if (helloLength % 2 === 0) {
+    console.log("The world is nice and even!");}
+    else {
+        console.log("The world is an odd place!")};
+
 
 
 
